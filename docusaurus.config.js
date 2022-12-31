@@ -15,7 +15,7 @@ const config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en"]
+    locales: ["en"],
   },
 
   plugins: [
@@ -27,31 +27,30 @@ const config = {
             tagName: "link",
             attributes: {
               rel: "preconnect",
-              href: "https://fonts.googleapis.com"
-            }
+              href: "https://fonts.googleapis.com",
+            },
           },
           {
             tagName: "link",
             attributes: {
               rel: "preconnect",
               href: "https://fonts.gstatic.com",
-              crossorigin: ""
-            }
+              crossorigin: "",
+            },
           },
           {
             tagName: "link",
             attributes: {
               rel: "stylesheet",
               type: "text/css",
-              href:
-                "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-            }
-          }
+              href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+            },
+          },
         ],
         preBodyTags: [],
-        postBodyTags: []
-      }
-    ]
+        postBodyTags: [],
+      },
+    ],
   ],
 
   presets: [
@@ -61,17 +60,17 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/debrixjs/website/tree/main/docs"
+          editUrl: "https://github.com/debrixjs/website/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/debrixjs/website/tree/main/blog"
+          editUrl: "https://github.com/debrixjs/website/tree/main/blog",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      })
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
+    ],
   ],
 
   themeConfig:
@@ -81,7 +80,7 @@ const config = {
         title: "Debrix",
         logo: {
           alt: "Debrix Logo",
-          src: "/img/logo.svg"
+          src: "/img/logo.svg",
           // srcDark: "/img/logo-dark.svg"
         },
         items: [
@@ -89,26 +88,26 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Docs"
+            label: "Docs",
           },
           {
             to: "/blog",
             label: "Blog",
-            position: "left"
+            position: "left",
           },
           {
             href: "https://playground.debrix.dev",
             label: "Playground",
-            position: "right"
+            position: "right",
           },
           {
             href: "https://github.com/debrixjs/debrix",
             "aria-label": "GitHub",
             position: "right",
-            className: "github-icon"
-          }
+            className: "github-icon",
+          },
         ],
-        hideOnScroll: true
+        hideOnScroll: true,
       },
       footer: {
         style: "dark",
@@ -116,36 +115,32 @@ const config = {
           src: "/img/logo.svg",
           // srcDark: "/img/logo-dark.svg",
           height: 64,
-          width: 64
+          width: 64,
         },
         links: [
           {
             label: "Documentation",
-            to: "/docs/intro"
+            to: "/docs/intro",
           },
           {
             label: "Blog",
-            to: "/blog"
+            to: "/blog",
           },
           {
             label: "GitHub",
-            href: "https://github.com/debrixjs"
+            href: "https://github.com/debrixjs",
           },
           {
             label: "Packages",
-            href: "https://www.npmjs.com/search?q=debrix"
+            href: "https://www.npmjs.com/search?q=debrix",
           },
-          {
-            label: "GitHub",
-            href: "https://github.com/facebook/docusaurus"
-          }
-        ]
+        ],
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme
-      }
-    })
+        darkTheme: darkCodeTheme,
+      },
+    }),
 };
 
 module.exports = config;
