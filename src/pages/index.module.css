@@ -12,7 +12,7 @@
 .main::after {
   content: "";
 
-  --src: url(/img/construction.png);
+  --src: url(/img/construction.webp);
   --width: 450px;
   --height: 192px;
 
