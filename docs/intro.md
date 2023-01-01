@@ -9,7 +9,7 @@ Debrix provides a new _truly_ declarative way of building interactive user inter
 
 You can experiment with Debrix on the online [playground](https://playground.debrix.dev).
 
-## Roadmap 🚧
+## Experimental 🚧
 
 :::danger
 Only use debrix in it's current state to [experiment](https://playground.debrix.dev). Most features are not implemented or tested yet and _will_ break.
@@ -22,7 +22,7 @@ Debrix is far from being complete and is under active development. Don't post th
 - **Nativly Reactive** — The data is written as classes which magically updates the view.
 - **Fast** — The compiler (written in rust) compiles leightweight pieces of runtime code which can either client- or server-side render.
   - **Progressive** — Every interative enhancment made to the view is bound in such a way that only the required parts of the document are updated. No additional processing is used runtime (like VDOM).
-- **Extensive** — Interacting with the DOM is made easy using bindings. New binders can be implemented which have full control over the value and the node.
+- **Extensible** — Interacting with the DOM is made easy using bindings. New binders can be implemented which have full control over the value and the node.
 
 ### Runtime Size
 
