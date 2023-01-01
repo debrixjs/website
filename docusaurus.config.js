@@ -116,6 +116,7 @@ const config = {
         logo: {
           src: "/img/logo.svg",
           // srcDark: "/img/logo-dark.svg",
+          alt: "Debrix Logo",
           height: 64,
           width: 64,
         },
