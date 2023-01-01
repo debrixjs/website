@@ -4,9 +4,11 @@
 }
 
 .main {
+  --construction-height: 192px;
+
   position: relative;
   flex-grow: 1;
-  min-height: 32rem;
+  padding-bottom: calc(var(--construction-height) + 2rem);
 }
 
 .main::after {
@@ -14,7 +16,7 @@
 
   --src: url(/img/construction.webp);
   --width: 450px;
-  --height: 192px;
+  --height: var(--construction-height);
 
   position: absolute;
   bottom: -10px;
