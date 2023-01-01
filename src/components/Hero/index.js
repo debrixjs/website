@@ -35,7 +35,11 @@ export default function Hero() {
             <Link className="button button--primary" to="/docs/intro">
               Get started
             </Link>
-            <Link className="button button--secondary" to="/docs/intro">
+            <Link
+              className="button button--secondary"
+              to="/docs/intro"
+              aria-label="Introduction"
+            >
               Read more
             </Link>
           </div>
