@@ -36,7 +36,7 @@ export default function Hero() {
               Get started
             </Link>
             <Link className="button button--secondary" to="/docs/intro">
-              Read more
+              Introduction
             </Link>
           </div>
         </div>
