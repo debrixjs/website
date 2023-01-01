@@ -1,5 +1,10 @@
 # Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05399e4f-ba3e-48cf-9f3d-f627810a6eab/deploy-status)](https://app.netlify.com/sites/genuine-biscuit-3ae153/deploys)
+
+Deploy: https://docs.debrix.dev<br>
+Edit: https://codesandbox.io/p/github/debrixjs/website
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
