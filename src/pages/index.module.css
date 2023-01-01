@@ -18,14 +18,17 @@
 
   position: absolute;
   bottom: -10px;
-  left: calc(50% - (var(--width) / 2));
+  left: 0;
 
   display: block;
-  width: var(--width);
+  width: 100%;
   height: var(--height);
+  margin: 0 auto;
 
   background-image: var(--src);
   background-size: var(--width) var(--height);
+  background-position: center;
+  background-repeat: no-repeat;
 
   pointer-events: none;
 }
